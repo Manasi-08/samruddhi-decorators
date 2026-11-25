@@ -1,0 +1,28 @@
+
+# Database config files (DO NOT COMMIT PASSWORDS)
+config.php
+admin/config.php
+.env
+.env.*
+
+# Database backup (contains private data)
+samruddhi_decorators.sql
+*.sql
+
+# Antigravity planning file
+implementation_plan.md
+
+# User uploaded media
+admin/uploads/*
+!admin/uploads/.gitkeep
+
+# Dependencies
+vendor/
+
+# IDE and OS files
+.vscode/
+.DS_Store
+Thumbs.db
+
+# Log files
+*.log
